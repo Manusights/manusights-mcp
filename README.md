@@ -9,8 +9,11 @@ pre-submission preview of a manuscript.
 - **Sign-in:** OAuth with dynamic client registration. Reference checks and journal lookups work without
   an account; the review tools ask you to sign in the first time you use them.
 
-This repository holds the server's public description and setup notes. The server itself runs at
-manusights.com; there is no code to install.
+This repository holds the server's public description and setup notes, packaged as an
+[Agent Plugins](https://agent-plugins.org) plugin: `plugin.json` (manifest), `mcp.json` and `.mcp.json`
+(the remote server), and one skill, `skills/check-before-submission/SKILL.md`, that tells an assistant
+how to use the tools and report their results. The server itself runs at manusights.com; there is no code
+to install.
 
 ## Tools
 

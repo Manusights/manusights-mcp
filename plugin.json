@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "manusights",
+  "version": "1.0.0",
+  "description": "Check references for retractions and DOI mismatches, look up journal AI-use policies, and preview a manuscript before submission.",
+  "author": {
+    "name": "Manusights",
+    "email": "team@manusights.com",
+    "url": "https://manusights.com"
+  },
+  "homepage": "https://manusights.com/developers/connector",
+  "repository": "https://github.com/Manusights/manusights-mcp",
+  "license": "MIT",
+  "keywords": ["citations", "references", "retractions", "journal policy", "peer review", "research", "manuscripts"]
+}
