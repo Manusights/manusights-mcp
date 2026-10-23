@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "manusights": {
+      "type": "http",
+      "url": "https://manusights.com/mcp"
+    }
+  }
+}
